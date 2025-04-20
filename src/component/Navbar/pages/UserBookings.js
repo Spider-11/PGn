@@ -5,7 +5,6 @@ import './UserBookings.css';
 const UserBookings=()=>{
     const [user, setUser] = useState(null);
     const [bookings, setBookings] = useState([]);
-    const today = new Date().toLocaleDateString();
     // Load user from localStorage
     useEffect(() => {
         const storedUser = localStorage.getItem("user");
