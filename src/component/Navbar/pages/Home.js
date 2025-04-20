@@ -11,7 +11,7 @@ const Home = () => {
         </h1>
         </div>
         <div className='images'>
-          <img src={PG} alt='PG Image'></img>
+          <img src={PG} alt="Spacious PG room with balcony" />
         </div>
     </div>
   )
